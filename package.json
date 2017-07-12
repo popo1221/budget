@@ -1,0 +1,28 @@
+{
+  "name": "budget",
+  "version": "1.0.0",
+  "description": "A resource relationship map tool.",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popo1221/budget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popo1221/budget/issues"
+  },
+  "homepage": "https://github.com/popo1221/budget#readme",
+  "devDependencies": {
+    "husky": "0.14.3",
+    "lint-staged": "4.0.1",
+    "pre-commit": "1.2.2"
+  },
+  "lint-staged": {
+    "*.js": ["eslint"]
+  }
+}
